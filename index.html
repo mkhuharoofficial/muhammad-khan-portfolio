@@ -13,7 +13,7 @@
             font-family: 'Roboto', system-ui, sans-serif;
         }
         
-        .europass-header {
+        .header {
             background: linear-gradient(to right, #0a66c2, #0033a0);
             color: white;
         }
@@ -39,37 +39,18 @@
 </head>
 <body class="bg-white">
 
-    <!-- HEADER - Exact Europass style -->
-    <div class="europass-header py-4 px-8 flex items-center justify-between">
-        <div class="flex items-center gap-4">
-            <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center text-[#0033a0] font-bold text-3xl">MK</div>
-            <div>
-                <h1 class="text-4xl font-bold tracking-tight">Muhammad Khan</h1>
-            </div>
-        </div>
-        <div class="flex items-center gap-3">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png" 
-                 alt="EU Logo" class="w-12 h-12">
-            <div class="text-right">
-                <span class="text-3xl font-bold tracking-widest">europass</span>
-            </div>
+    <!-- HEADER - Clean without Europass -->
+    <div class="header py-6 px-8">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-5xl font-bold tracking-tight text-center">Muhammad Khan</h1>
         </div>
     </div>
 
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 min-h-screen">
 
-        <!-- LEFT SIDEBAR - Exact CV design -->
+        <!-- LEFT SIDEBAR - Profile picture section removed + extra spaces cleaned -->
         <div class="left-sidebar lg:col-span-4 p-8 border-r border-gray-200">
             
-            <!-- Personal Photo Area (Placeholder - replace with your photo) -->
-            <div class="w-full aspect-square bg-white border-2 border-[#0a66c2] rounded-2xl mb-8 flex items-center justify-center overflow-hidden">
-                <div class="text-center">
-                    <i class="fa-solid fa-user text-[#0a66c2] text-8xl mb-3"></i>
-                    <p class="text-sm text-gray-500 font-medium">Add your photo here</p>
-                    <p class="text-xs text-gray-400">300x300 px recommended</p>
-                </div>
-            </div>
-
             <div class="space-y-6">
                 <!-- Personal Details -->
                 <div>
@@ -146,7 +127,7 @@
             </div>
         </div>
 
-        <!-- RIGHT MAIN CONTENT - Exact CV design -->
+        <!-- RIGHT MAIN CONTENT - No changes -->
         <div class="lg:col-span-8 p-8 lg:p-12">
 
             <!-- About Me -->
@@ -237,7 +218,7 @@
             </div>
 
             <div class="mt-16 text-center text-xs text-gray-400">
-                Built as exact digital copy of my Europass CV • Muhammad Khan • March 2026
+                Personal Portfolio • Muhammad Khan • 2026
             </div>
         </div>
     </div>
